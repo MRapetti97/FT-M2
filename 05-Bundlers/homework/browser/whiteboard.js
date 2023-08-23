@@ -2,8 +2,6 @@ import EventEmitter from "./event-emitter";
 
 export let whiteboard = new EventEmitter();
 
-exports.whiteboard = new EventEmitter();
-
 // Ultimately, the color of our stroke;
 var color;
 
